@@ -40,7 +40,7 @@
   max-inline-size: 1024px;
   block-size: 100vh;
   max-block-size: 768px;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 
 
@@ -168,7 +168,8 @@
 
 .section-problems,
 .section-factors,
-.section-tips {
+.section-tips,
+.section-gallery {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -228,10 +229,6 @@
 
 .section-gallery__subtitle {
   grid-column: 1 / -1;
-}
-
-.section-gallery {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .gallery__image {
@@ -392,8 +389,8 @@
   }
 
   .section-gallery {
-    gap: 10px;
-    margin-block-end: 30px;
+    gap: 8px;
+    margin-block-end: 40px;
   }
 
   .section-gallery__subtitle {
@@ -402,7 +399,7 @@
 
   .gallery__item {
     margin: 0;
-    max-inline-size: 100%;
+    max-inline-size: 355px;
     max-block-size: 355px;
   }
 
@@ -411,3 +408,4 @@
     max-inline-size: 375px;
   }
 }
+

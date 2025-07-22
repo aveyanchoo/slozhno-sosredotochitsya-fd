@@ -6,5 +6,11 @@
 :root {
   --font-family: 'IBM Plex mono', monospace;
   --font-size: 18px;
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --bg-text-color: #FF0070;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-text-color: #FF0070;
 }
 
