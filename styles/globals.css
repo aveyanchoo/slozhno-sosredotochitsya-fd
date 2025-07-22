@@ -10,6 +10,8 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  /* font-family: 'IBM Plex mono', serif;
+  font-size: 18px; */
 }
 
 h1,
@@ -35,7 +37,7 @@ picture {
 
 button,
 a {
-  color: currentColor;
+  color: var(--text-color);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
