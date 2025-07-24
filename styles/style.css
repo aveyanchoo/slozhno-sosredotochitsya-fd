@@ -322,7 +322,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 600px) {
   .header {
     max-inline-size: 375px;
     max-block-size: 668px;
