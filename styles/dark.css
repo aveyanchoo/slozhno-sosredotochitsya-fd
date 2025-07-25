@@ -9,4 +9,9 @@
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
+  --title-text-color: #DB00FF;
+  --color-text-secondary: #000028;
+  --shadow-text-color: #FF0070;
+  --border-button-hover: #FF007066;
+  --border-button-focus: #FF0070;
 }
