@@ -189,7 +189,6 @@
     border: 1px solid var(--accent-color);
     text-decoration: none;
   }
-}
 
 .section-problems {
   grid-template-columns: repeat(3, 1fr);
