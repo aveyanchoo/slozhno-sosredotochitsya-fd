@@ -4,6 +4,70 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff;
+    --text-color: #353430;
+    --accent-color: #FF8DCB;
+    --title-text-color: #FFC2E6;
+    --color-text-secondary: #353430;
+    --shadow-text-color: #FF8DCB;
+    --title-text-secondary-color: #353430;
+    --theme-menu-button-color: #353430;
+    --border-button-active: #353430;
+    --border-button-hover: #32312D66;
+    --border-button-focus: #353430;
+    --border-decorated-color: #353430;
+    --rec-label-display: none;
+  }
+  
+  .header__theme-menu-button {
+    color: var(--theme-menu-button-color, #353430);
+  }
+  
+  .header__theme-menu-button:hover {
+    border: 1px solid var(--border-button-hover, #32312D66);
+  }
+  
+  .header__theme-menu-button:focus {
+    outline: none;
+  }
+  
+  .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--border-button-focus, #353430);
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  
+  .header__theme-menu-button_active {
+    border: 1px solid var(--border-button-active, #353430);
+  }
+  
+  .rec-label {
+    display: var(--rec-label-display);
+  }
+  
+  .decorated-zone::before,
+  .decorated-zone::after {
+    border-color: var(--border-decorated-color, #353430);
+  }
+  
+  .header__title {
+    color: var(--title-text-color, #FFC2E6);
+    text-shadow: 4px 4px 0 var(--accent-color, #FF8DCB);
+  }
+  
+  .section__title {
+    color: var(--title-text-secondary-color, #353430);
+  }
+  
+  .footer__title {
+    color: var(--title-text-color, #FFC2E6);
+  }
+}
+
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff;
@@ -12,7 +76,11 @@
   --title-text-color: #FFC2E6;
   --color-text-secondary: #353430;
   --shadow-text-color: #FF8DCB;
+  --title-text-secondary-color: #353430;
+  --theme-menu-button-color: #353430;
+  --border-button-active: #353430;
   --border-button-hover: #32312D66;
   --border-button-focus: #353430;
+  --border-decorated-color: #353430;
+  --rec-label-display: none;
 }
-

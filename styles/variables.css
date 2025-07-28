@@ -4,7 +4,7 @@
 */
 
 :root {
-  --font-family: 'IBM Plex mono', monospace;
+  --font-family: 'IBM Plex mono';
   --font-size: 18px;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
@@ -13,6 +13,11 @@
   --title-text-color: #DB00FF;
   --color-text-secondary: #000028;
   --shadow-text-color: #FF0070;
+  --title-text-secondary-color: var(--accent-color);
+  --theme-menu-button-color: #FF0070;
+  --border-button-active: #FF0070;
   --border-button-hover: #FF007066;
   --border-button-focus: #FF0070;
+  --border-decorated-color: #FF0070;
+  --rec-label-display: block;
 }
