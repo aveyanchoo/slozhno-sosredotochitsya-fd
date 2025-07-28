@@ -537,6 +537,7 @@
     grid-template-columns: 1fr;
     margin: 40px 14px 50px 10px;
     gap: 20px;
+    min-inline-size: 95%;
   }
 
   .section-problems .section__item,
