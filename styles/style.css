@@ -273,6 +273,7 @@
 }
 
 @media (width <= 768px) {
+
   .header {
     max-inline-size: 768px;
     min-block-size: 1024px;
@@ -325,6 +326,7 @@
 }
 
 @media (376px <= width <= 575px) {
+
   .section {
     grid-template-columns: 1fr;
     margin: 40px 14px 50px 10px;
@@ -350,6 +352,7 @@
 }
 
 @media (width <= 375px) {
+
   .header {
     max-inline-size: 375px;
     min-block-size: 668px;
